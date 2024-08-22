@@ -1,0 +1,72 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3{
+    color: purple;
+}
+h1{
+    color: #b92b27;
+}
+
+/* Adjacent Sibling Combinator */
+p + h3{
+    text-decoration: underline;
+    color: #b92b27;
+}
+.upvote{
+   background-color: green;
+}
+.upvote + button{
+    color: purple;
+}
+/* Attribute Type */
+
+input[type="text"]{
+    color: green;
+}
+input[type="password"]{
+    color: red;
+}
+span button{
+
+    &:hover{
+        background-color: black;
+        color: #fff;
+    }
+    &:active{
+        background-color: hotpink;
+        color: blueviolet;
+    }
+}
+
+h3{
+
+    &:hover{
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+/* Checked */
+input[type="radio"]:checked + label{
+    color: #b92b27;
+   
+}
+
+/* nth-of-type */
+h3:nth-of-type(3){
+    /* background-color: blueviolet; */
+    color :salmon;
+}
+
+h1::first-letter{
+    color: green;
+}
+p::first-line{
+    color: teal;
+}
+p::selection{
+   background-color: yellow;
+}
+p::

@@ -1,0 +1,48 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    text-align: center;
+    
+}
+div{
+    height: 100px;
+    width: 50px;
+    border: 2px,solid,black;
+    display: inline-block;
+    justify-content: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+
+
+}
+#container{
+    height: 500px;
+    width: 800px;
+    background-color: aqua;
+    border: 2px,solid,black;
+    margin-top: 200px;
+    margin-left: 250px;
+    
+    
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color:skyblue ;
+}
+#box5{
+    background-color: sandybrown;
+}

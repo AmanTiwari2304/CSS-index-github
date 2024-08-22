@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="black">
+        <caption>Student Information</caption>
+        
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+            <tr>
+                <th>City</th>
+                <th>House</th>
+            </tr>
+        
+        
+            <tr>
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Kolkata</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+    </table>
+    <hr>
+    <form action="/action">
+        <div>
+            <label for="User">Name:</label>
+            <input type="text" placeholder="Enter Name" name="Username" id="User">
+            <br>
+        </div>
+        <br>
+        <div>
+            <label for="sex">Sex:</label>
+            <input type="radio" name="sex" id="sex">
+            <label for="sex">Male</label>
+            <input type="radio" name="sex" id="sex">
+            <label for="sex">Female</label>
+        </div>
+        <br>
+        <div>
+            <label for="countryid">Country:</label>
+            <select name="from" placeholder="select an option" id="countryid" >
+                <option value="">India</option>
+                <option value="" selected>select an option</option>
+                <option value="">USA</option>
+                <option value="">China</option>
+                <option value="">Russia</option>
+                <option value="">France</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="">Message : </label>
+            <br>
+            <textarea name="" id="" cols="30" rows="4"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="" id="">
+            <label for="">Subscribe ?</label>
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+  <hr>
+  <form action="action2/form second ">
+    <h2>Feedback form</h2>
+    <div>
+        <label for="">Name :</label>
+        <input type="text" placeholder="Write your name" name="" id="">
+
+    </div>
+    <br><br>
+    <div>
+        <label for="">Email :</label>
+        <input type="text" placeholder="Write your email" name="" id="">
+    </div>
+    <br><br>
+    <div>
+        <label for="">Message:</label><br>
+        <textarea name="" id="" cols="40" rows="4"></textarea>
+    </div>
+    <br><br>
+    <div>
+        <label for="">Rate as our of 5:</label><br>
+        <input type="radio" name="rating" id="">
+        <label for="">1</label><br>
+        <input type="radio" name="rating" id="">
+        <label for="">2</label><br>
+        <input type="radio" name="rating" id="">
+        <label for="">3</label><br>
+        <input type="radio" name="rating" id="">
+        <label for="">4</label><br>
+        <input type="radio" name="rating" id="">
+        <label for="">5</label><br>
+
+    </div>
+    <br><br>
+    <button type="submit">Send your Message</button>
+  </form>
+</body>
+</html>

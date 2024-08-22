@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/sever detail">
+<!-- Input -->
+<h1>Input Type</h1>
+Username
+<input type="text">
+<br>
+Password
+<input type="password">
+<br>
+Number
+<input type="number">
+<br>
+Time
+<input type="time">
+<br>
+Color
+<input type="color">
+<br>
+<hr>
+<!-- Label And Placeholder -->
+   <label for="usna">Username:</label>
+   <input type="text" placeholder="Enter Name " id="usna">
+<br>
+   <label for="psd">Password:</label>
+   <input type="password" Placeholder="Enter Password" id="psd">
+<hr>
+<!-- Button -->
+   <button type="reset">Reset Your Response </button>
+   <button type="button">Just click me</button>
+   <button type="submit">Summit your Response</button>
+</form>
+    <hr>
+
+<!-- Use of Name in Input -->
+ <form action="https://www.youtube.com/results?">
+    <label for="youtube">Search YouTube Video</label>
+    <input type="text" placeholder="Search For You Tube Video" name="search_query" id="youtube">
+    <button type="submit">submit</button>
+ </form>
+ <hr>
+<!-- Search Button For Google -->
+ <form action="https://www.google.com/search?">
+    <label for="google">Search here any question</label>
+    <input type="text" placeholder="Google Search" name="q" id="google">
+    <button type="submit">Submit</button>
+ </form>
+ <hr>
+<!-- Use of Checkbox -->
+     <form action="/server Xyz">
+        <input type="checkbox" name="" id="Age">
+        <label for="Age">I am 18+</label>
+        <button type="submit">Submit</button>
+     </form>
+ <hr>
+<!--Use of Radio  -->
+     <form action="/server/radio/abc">
+        <input type="radio" name="Fruits" id="apple" value="apple">
+        <label for="apple">Apple</label>
+        <input type="radio" name="Fruits" id="Mango" value="Mango">
+        <label for="Mango">Mango</label>
+        <input type="radio" name="Fruits" id="Banana" value="Banana">
+        <label for="Banana">Banana</label>
+        <button type="submit">Submit</button>
+        <!-- Here "name" is same for every input that's why we can only select one element at a time, if we change the "name" of each element into diffent then we will be able to select multiple option at a time -->
+        <!-- USE OF VALUE : value in input is used to check in sever from which input the response is coming from   -->
+     </form>
+ <hr>
+<!-- use of select -->
+ <form action="/server/radio/abc">
+    <select name="Profession" id="Profession">
+        <option value="stu">Student</option>
+        <option value="dev" selected>Developer</option> 
+        <!-- selected is used to select a option from your side -->
+        <option value="ntd">Nothing to do</option>
+     </select>
+     <button type="submit">Submit</button>
+ </form>
+ <hr>
+<!-- Use of Range -->
+     <label for="vol">Volume</label>
+     <input type="range" min="10" max="90"  id="vol">
+ <hr>
+<!-- Use of Text Area -->
+     <form action="/sever/for textarea/">
+        <label for="feed">Feedback :</label>
+     <textarea name="Feedback" placeholder="Please submit your valuable feedback" id="feed"></textarea>
+     <button type="submit">Submit</button>
+     </form>
+     
+</body>
+</html>
