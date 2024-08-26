@@ -94,6 +94,8 @@ select option{
     height: 85%;
     width: 100%;
     background-color: cornsilk;
+    background-image: url(php-marquee-starter-lg-bg.webp);
+    background-size: cover;
 }
 span{
     text-decoration: underline;
@@ -123,6 +125,8 @@ span{
     height: 76%;
     width: 100%;
     display: flex;
+    background-image: url(php-marquee-starter-lg-bg.webp);
+    background-size: cover;
 }
 
 #box1{
@@ -130,12 +134,16 @@ span{
     height: 100%;
     width: 50%;
     background-color: white;
+   
+    
 }
 #box2{ 
     
     height: 100%;
     width: 50%;
     background-color: white;
+    /* background-image: url(php-marquee-starter-lg-bg.webp);
+    background-size: cover; */
 
 }
 #box2 img{
@@ -146,7 +154,7 @@ span{
     border-radius: 15px;
 }
 #box2 video{
-    z-index: 2em;
+    /* z-index: 2em; */
     margin: 20px 10px 15px 20px;
     border-radius: 15px;
 

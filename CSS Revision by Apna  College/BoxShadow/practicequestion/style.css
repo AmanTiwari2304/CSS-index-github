@@ -1,0 +1,56 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    
+}
+div{
+   display: flex;
+}
+.box{
+    height: 220px;
+    width: 200px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 15px;
+    display: block;
+    box-shadow: 15px 5px 5px gray;
+    transition: 1s;
+
+    &:hover{
+        box-shadow: 25px 10px 10px gray;
+
+    }
+}
+#box1 .upperpart{
+    background-color: purple;
+    background-image: url(ali-morshedlou-WMD64tMfc4k-unsplash.jpg);
+    background-size: cover;
+}
+
+#box2 .upperpart{
+    background-color: aqua;
+    background-image: url(albert-dera-ILip77SbmOE-unsplash.jpg);
+    background-size: cover;
+}
+
+.upperpart{
+    height: 50%;
+    width: 100%;
+   
+}
+.lowerpart{
+    height: 50%;
+    width: 100%;
+    background-color: #fff;
+    display: inline;
+    padding: 0 5px 0 5px;
+   
+
+}

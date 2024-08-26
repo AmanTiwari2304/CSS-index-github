@@ -1,0 +1,54 @@
+section{
+    margin-top: 100px;
+    /* margin: 10px auto; */
+}
+
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+
+}
+
+div:nth-of-type(2n){
+    background-color: #7fdb6a;
+}
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+
+#one{
+    transform: rotate(45deg);
+    /* transform: rotate(-45deg);
+    transform: rotateY(45deg); */
+}
+
+#two{
+    transform: scale(0.5);
+    /* transform: scaleX(1.5);
+    transform: scaleY(1.5);
+    transform: scaleZ(1.5); */
+   
+}
+
+#three{
+    transform: skew(30deg);
+    /* transform: skewX(30deg);
+    transform: skewY(30deg); */
+ 
+}
+
+#four{
+    transform: translate(100px);
+    /* translate will shift the box in the demanding direction */
+
+    /* transform: translate(-100px);
+    transform: translateY(100px);*/
+}
+
+#five{
+    transform: rotate(30deg) translateY(75px);
+}

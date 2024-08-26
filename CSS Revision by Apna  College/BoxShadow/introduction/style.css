@@ -1,0 +1,20 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    box-shadow: 35px 35px 50px purple;
+    /* 1st is X offset, second one is Y offset,third one is for Blurness and last one is for color   */
+}
