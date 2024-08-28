@@ -1,0 +1,37 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+#container{
+    height: 50px;
+    width: 900px;
+    background-color: sandybrown;
+    border: 2px solid #00ffff;
+    border-radius: 10px;
+    display: flex;
+    /* margin: 10px auto; */
+    /* align-content: center; */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+
+}
+
+#container div{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    padding-left: 10px ; 
+    padding-top: 8px;
+   
+    /* line-height: 50px; */
+}

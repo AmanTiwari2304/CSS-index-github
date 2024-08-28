@@ -1,0 +1,56 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+#container{
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse ; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: baseline; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end;
+    align-items: center; */
+    align-content: flex-start;
+    /* align-content:flex-end; */
+    /* align-content: space-between; */
+    /* align-content: space-evenly; */
+
+}
+
+/* Align-content & Align-self have similar property but align-content is
+used for group of items while align-self is used for a particular item(orId)
+*/
+
+
+#org{
+    align-self: self-end;
+    /* align-self: center;
+    align-self: baseline; */
+}
+ h1{
+    text-align: center;
+
+ }
+
+ #container div{
+    height: 50px;
+    width: 300px;
+    color: #fff;
+    text-align: center;
+ }
