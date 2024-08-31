@@ -53,6 +53,8 @@ html,body{
     grid-column: 1/3;
 
     grid-row: 1/3;
+    grid-row: 1/span 2;
+    /* span is number of cell want to dedicate for row or column */
     
 
 

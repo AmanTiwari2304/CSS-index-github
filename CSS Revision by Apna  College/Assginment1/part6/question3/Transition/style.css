@@ -12,15 +12,15 @@ html,body{
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    border: 20px,solid,#ffe66d;
-    border-top: 20px,solid,#4ecdc4;
-    animation: spinAnimate 2s ease-in-out 0s infinite normal;
+    border: 20px solid #ffe66d;
+    border-top: 20px solid #4ecdc4;
+    animation: spinAnimate 2s linear 5s infinite ;
 }
 @keyframes  spinAnimate {
-    from{
+    0%{
         transform: rotate(0deg);
     }
-    to{
+    100%{
         transform: rotate(360deg);
     }
 }
